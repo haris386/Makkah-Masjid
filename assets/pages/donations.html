@@ -103,32 +103,23 @@
             <div class="row align-items-center g-lg-5 py-5">
                 <div class="col-lg-7 text-center text-lg-start">
                     <h1 class="display-4 fw-bold lh-1 mb-3">PEACE BE UPON YOU.</h1>
-                    <p class="col-lg-10 fs-4">You can make your donation securely online through PayPal. You do not have
-                        to have a PayPal account to donate online. Please click on the Donate button below to make your
-                        donation. All donations made to the Makkah Masjid are tax-deductibles.
-                        PLEASE DONATE GENEROUSELY.</p>
+                    <p class="col-lg-10 fs-4">Using your debit card, you can securely complete your donation online through PayPal or Stripe. 
+                        It is not necessary to have a PayPal/Stripe account in order to make a donation online. If you would like to make a donation, please click the Donate button on the right. The Makkah Masjid accepts all forms of charitable donations, which are tax-deductible. 
+                        PLEASE DONATE GENEROUSLY.</p>
                 </div>
                 <div class="col-md-10 mx-auto col-lg-5">
                     <div class="row">
                         <a href="https://donate.stripe.com/test_6oE2a0b4W8X7ekg5kk" target="_blank"
                             class="donatebtn">Donate
                             with Stripe<img src="../img/download.svg" alt="Stripe Logo" style="width: 10%;"></a>
-                        <!-- <a href="https://donate.stripe.com/test_6oE2a0b4W8X7ekg5kk" target="_blank"
-                            class="donatebtn">Donate
-                            with Stripe</a> -->
+                        
                     </div>
                     <br>
 
-                    <!-- <div id="error-message"></div> -->
                     <div class="row">
-                        <a href="https://donate.stripe.com/test_6oE2a0b4W8X7ekg5kk" target="_blank"
+                        <a href="https://www.paypal.com/paypalme/makkahmasjidgarland?country.x=US&locale.x=en_US" target="_blank"
                             class="donatebtn2"><span style="color: black;">Donate with</span> <img src="../img/pp.svg" alt="Paypal Logo" style="width: 30%;"></a>
-
-                        <!-- <a href="https://donate.stripe.com/test_6oE2a0b4W8X7ekg5kk" target="_blank"
-                            class="donatebtn2"><span style="color: black;">Donate with</span> <span
-                                style="color: #003087; font-weight: bold;">Pay</span><span
-                                style="color: #009cde; font-weight: bold;">Pal</span></a> -->
-                    </div>
+                         </div>
                 </div>
             </div>
         </div>
@@ -149,7 +140,7 @@
                 <div class="col-sm-2"></div>
                 <div class="col-sm-1"></div>
                 <div class="col-sm-6" style="padding-left: 7%;">
-                    <h3 style="color: white;">© Cyber Odyssey - All rights reserved</h3>
+                    <h3 style="color: white; font-size: 18px; text-align: center;">© Cyber Odyssey - All rights reserved</h3>
                 </div>
                 <div class="col-sm-1"></div>
                 <div class="col-sm-2"></div>
@@ -163,33 +154,6 @@
 
     <!-- STRIPE DONATION CHECKOUT PAGE -->
     <script src="https://js.stripe.com/v3"></script>
-    <!-- <script>
-          (function () {
-            // initialize Stripe using your publishable key
-            const stripe = Stripe('pk_test_51M1n8aFcoiK9JFLrw7a2pKKH8lAACYeX1ae271gqstbPmOXnB63uoR2nlIjTtFSbkxVRVT4jH1BBDvsDk0nxOrGk00NQqQyFoe');
-    
-            // find the button and error message elements
-            const checkoutButton = document.getElementById('donate-button');
-            const errorMessage = document.getElementById('error-message');
-    
-            // on click, send the user to Stripe Checkout to process the donation
-            checkoutButton.addEventListener('click', () => {
-              stripe
-                .redirectToCheckout({
-                  items: [{ sku: 'price_1M1nM4FcoiK9JFLr8QLy3Gc1', quantity: 1 }],
-                  successUrl: `${window.location.origin}/assets/pages/success.html`,
-                  cancelUrl: window.location.origin,
-                })
-                console.log("successfully donated")
-                .then(function (result) {
-                    if (result.error) {
-                        errorMessage.textContent = result.error.message;
-                        console.log(errorMessage)
-                  }
-                });
-            });
-          })();
-        </script> -->
 </body>
 
 </html>
