@@ -10,7 +10,6 @@ body {
   color: #ffffff;
   font-size: 1.1em;
   text-align: center;
-  /* padding-right: 5px; */
 }
 
 .navbar .navbar-nav .nav-link:hover {
@@ -27,7 +26,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 115vh;
-  /* min-height: 400px; */
 }
 
 #bg-img-hero-section3 {
@@ -36,7 +34,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 115vh;
-  /* min-height: 400px; */
 }
 
 #bg-img-hero-section4 {
@@ -45,7 +42,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 115vh;
-  /* min-height: 400px; */
 }
 
 #bg-img-hero-section5 {
@@ -54,12 +50,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 115vh;
-  /* min-height: 400px; */
 }
 
 #titles {
   margin: auto;
-  /* width: 50%; */
   padding-top: 5%;
 }
 
@@ -78,32 +72,47 @@ body {
 }
 
 .btn {
-  background-color: #f9b88e;
-  border-radius: 50px;
+  background: linear-gradient(to right, #dba17a, #e18618);
+  color: #fff;
+  font-family: Trebuchet MS;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
+  text-decoration: none;
+  padding: 15px 15px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 84px;
+  display: inline-block;
+  box-shadow: 0px 1px 9px 5px rgb(255 100 0 / 10%);
   margin-left: 24%;
-  /* margin-left: 34%; */
-  font-weight: bold;
+  /* background-color: #f9b88e;
+  border-radius: 50px;
+  font-weight: bold; */
 }
 
 .btn:hover {
-  color: white;
+  background: linear-gradient(to right, #dba17a, #e18618);
+  background-color: #6b4e3a;
+  /* color: white;
   background-color: transparent;
   border: 2px solid #f9b88e;
-  border-radius: 50px;
+  border-radius: 50px; */
 }
 
 .btn:focus {
-  color: black;
+  transform: scale(0.95);
+  /* color: black;
   background-color: transparent;
   border: 2px solid #f9b88e;
-  border-radius: 50px;
+  border-radius: 50px; */
 }
 
 .btn:active {
-  color: black;
+  transform: scale(0.95);
+  /* color: black;
   background-color: transparent;
   border: 2px solid #f9b88e;
-  border-radius: 50px;
+  border-radius: 50px; */
 }
 
 #testimonils {
@@ -194,7 +203,7 @@ input:focus-visible {
 }
 
 #bg-about-img-hero-section {
-  background-image: url("./img/bg.png");
+  background-image: url(../img/bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -203,7 +212,34 @@ input:focus-visible {
 }
 
 #bg-eg-img-hero-section3 {
-  background-image: url("./img/bg.png");
+  background-image: url(../img/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 115vh;
+  /* min-height: 400px; */
+}
+
+#bg-eg-img-hero-section-2016 {
+  background-image: url(../img/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 115vh;
+  /* min-height: 400px; */
+}
+
+#bg-eg-img-hero-section-2015 {
+  background-image: url(../img/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 115vh;
+  /* min-height: 400px; */
+}
+
+#bg-eg-img-hero-section-2014 {
+  background-image: url(../img/bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -248,7 +284,36 @@ input:focus-visible {
   padding: 5px;
 }
 
-.donatebtn {
+.Donatebtn {
+  background: linear-gradient(to right, #dba17a, #e18618);
+  color: #fff;
+  font-family: Trebuchet MS;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
+  text-decoration: none;
+  padding: 10px 20px !important;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 84px;
+  display: inline-block;
+  box-shadow: 0px 1px 9px 5px rgb(255 100 0 / 10%);
+  margin-left: 24%;
+}
+
+.Donatebtn:hover {
+  color: white;
+  border: 2px solid rgb(0, 0, 0)
+}
+
+.Donatebtn:focus {
+  transform: scale(0.95);
+}
+
+.Donatebtn:active {
+  transform: scale(0.95);
+}
+
+.donatebtnStripe {
   background-color: #32325d;
   padding: 4%;
   border-radius: 5px;
@@ -262,7 +327,11 @@ input:focus-visible {
   font-size: 20px;
 }
 
-.donatebtn2 {
+.donatebtnStripe:hover {
+  color: white;
+}
+
+.donatebtnPaypal {
   background-color: #ffc439;
   padding: 5%;
   border-radius: 5px;
@@ -276,8 +345,7 @@ input:focus-visible {
   font-size: 20px;
 }
 
-.donatebtn:hover,
-.donatebtn2:hover {
+.donatebtnPaypal:hover {
   color: white;
 }
 
@@ -324,6 +392,9 @@ input:focus-visible {
   .Donatebtn {
     width: 50%;
     margin-left: 25%;
+    margin-top: -3px;
+    height: 45px;
+    padding: 5px !important;
   }
 
   #vid {
@@ -374,6 +445,30 @@ input:focus-visible {
     background-repeat: no-repeat;
     background-size: cover;
     height: 62vh !important;
+  }
+  
+  #bg-eg-img-hero-section-2016 {
+    background-image: url("../img/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh !important;
+  }
+  
+  #bg-eg-img-hero-section-2015 {
+    background-image: url("../img/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh !important;
+  }
+  
+  #bg-eg-img-hero-section-2014 {
+    background-image: url("../img/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh !important;
   }
 
   .contact-details,
