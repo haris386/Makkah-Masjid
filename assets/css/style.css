@@ -382,6 +382,10 @@ input:focus-visible {
   margin-left: 18%;
 }
 
+.lv{
+  margin-bottom: 2%;
+}
+
 /* RESPONSIVE BEHAVIORS */
 
 @media (max-width: 600px) {
@@ -422,7 +426,7 @@ input:focus-visible {
     background-size: cover;
     height: 62vh !important;
   }
-
+  
   #bg-img-hero-section3 {
     background-image: url("../img/bg.png");
     background-position: center;
@@ -438,7 +442,7 @@ input:focus-visible {
     background-size: cover;
     height: 62vh !important;
   }
-
+  
   #bg-img-hero-section5 {
     background-image: url("../img/bg.png");
     background-position: center;
@@ -470,7 +474,7 @@ input:focus-visible {
     background-size: cover;
     height: 60vh !important;
   }
-
+  
   .contact-details,
   .contact-details-2 {
     text-align: center;
@@ -479,7 +483,7 @@ input:focus-visible {
   #event-card-4 {
     margin-left: 0;
   }
-
+  
   .SBbtn {
     margin-left: 45%;
   }
@@ -500,7 +504,7 @@ input:focus-visible {
     left: 80%;
     top: 88%;
   }
-
+  
   .backtotopbtnicon {
     font-size: 30px;
   }
@@ -537,6 +541,7 @@ th span {
   color: #222;
   padding: 10px;
 }
+
 
 ._img_ {
   display: flex;
